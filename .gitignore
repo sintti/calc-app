@@ -19,8 +19,11 @@ yarn-error.log
 *.launch
 .settings/
 *.sublime-workspace
+.editorconfig
+.dockerignore
 
 # Visual Studio Code
+./vscode
 .vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json
@@ -40,3 +43,7 @@ testem.log
 # System files
 .DS_Store
 Thumbs.db
+
+# Firebase
+.firebaserc
+./firebase
