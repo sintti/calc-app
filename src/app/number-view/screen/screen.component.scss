@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'Digital';
+    src: url('../../../../public/digital-font.ttf');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  :host {
+    font-family: 'Digital', sans-serif;
+    font-size: 40px;
+  }

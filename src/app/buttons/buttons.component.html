@@ -1,0 +1,5 @@
+<div class="grid grid-cols-4 grid-rows-5 gap-3 p-3 max-w-sm mx-auto">
+  @for (text of buttonTextList; track $index) {
+  <button calcButton (click)="handleClick($event)">{{ text }}</button>
+  }
+</div>
